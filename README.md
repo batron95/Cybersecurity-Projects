@@ -10,9 +10,9 @@ This repository contains a series of Jupyter Notebooks designed to demonstrate v
 ## Getting Started
 To get started, navigate to the `notebooks/` folder and open any notebook in Jupyter. Alternatively, use the Binder link below to run the notebooks directly in your browser.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/batron95/Cybersecurity-Projects/main?filepath=notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/batron95/Cybersecurity-Projects/main)
 
 ## License
 This project is licensed under the MIT License.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/batron95/Cybersecurity-Projects/HEAD)
+
