@@ -1,4 +1,12 @@
 # postBuild
+
+# Ensure we're in the home directory (or where .jupyter should be)
+cd $HOME
+
+# Create the .jupyter directory if it doesn't exist
+mkdir -p .jupyter
+
+# Write configuration to jupyter_notebook_config.py
 echo "c.NotebookApp.allow_origin = '*'" > .jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.ip = '0.0.0.0'" >> .jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> .jupyter/jupyter_notebook_config.py
